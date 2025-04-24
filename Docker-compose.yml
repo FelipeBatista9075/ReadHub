@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  postgres:
+    image: postgres:latest
+    container_name: readhubcontainer
+    environment:
+      POSTGRES_DB: ${BD_URL}
+      POSTGRES_USER: ${BD_USER}
+      POSTGRES_PASSWORD: ${BD_PASS}
+    ports:
+      - "5432:5432"
+    restart: always
