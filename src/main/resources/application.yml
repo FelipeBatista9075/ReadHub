@@ -19,3 +19,7 @@ spring:
     flyway:
       enabled: true
       locations: classpath:db/migration
+
+readhub:
+  security:
+    secret: "D0D43DC203A565BB0D2B970FFD804F36"

@@ -15,7 +15,7 @@ import java.util.Map;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/author")
+@RequestMapping("/readhub/author")
 public class AuthorController {
 
     private final AuthorService authorService;
